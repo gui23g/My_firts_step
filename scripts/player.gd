@@ -2,7 +2,7 @@
 extends Node2D
 
 # Instantiate the sprite in a variable / Instanciando o sprite em uma variável
-@onready var sprite = $Sprite
+@onready var sprite = $Player
 
 # Setting the player's speed / Estabelecendo a velocidade do jogador
 var speed = 5
