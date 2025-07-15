@@ -15,13 +15,13 @@ func _ready():
 func _process(delta):
 	# Condition to move to the right / Condição para movimentar para a direita
 	if Input.is_action_pressed("right"):
-		sprite.position.x += speed
+		position.x += speed
 	# Condition to move to the left / Condição para movimentar para a esquerda
 	if Input.is_action_pressed("left"):
-		sprite.position.x -= speed
+		position.x -= speed
 	# Condition to move down / Condição para movimentar para baixo
 	if Input.is_action_pressed("down"):
-		sprite.position.y += speed
+		position.y += speed
 	# Condition to move up / Condição para movimentar para cima
 	if Input.is_action_pressed("up"):
-		sprite.position.y -= speed
+		position.y -= speed
